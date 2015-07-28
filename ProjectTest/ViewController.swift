@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         println("63")
     }
 
+func secondFunc()
+{
+    println("408")
+}
+
 
 }
 
