@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     func initialize()
     {
         println("63")
+println("324432234")
     }
 
 func secondFunc()
