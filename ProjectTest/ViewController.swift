@@ -32,7 +32,8 @@ func secondFunc()
     println("408")
 }
     
-    func featQ()
+
+    func featQZ()
     {
         
     }
