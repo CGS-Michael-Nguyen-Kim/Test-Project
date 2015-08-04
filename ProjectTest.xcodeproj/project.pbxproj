@@ -13,6 +13,7 @@
 		E2103BE11B67C9EC009A8090 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2103BE01B67C9EC009A8090 /* Images.xcassets */; };
 		E2103BE41B67C9EC009A8090 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2103BE21B67C9EC009A8090 /* LaunchScreen.xib */; };
 		E2103BF01B67C9EC009A8090 /* ProjectTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2103BEF1B67C9EC009A8090 /* ProjectTestTests.swift */; };
+		E2103BFA1B69E70D009A8090 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2103BF91B69E70D009A8090 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E2103BE91B67C9EC009A8090 /* ProjectTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2103BEE1B67C9EC009A8090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2103BEF1B67C9EC009A8090 /* ProjectTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTestTests.swift; sourceTree = "<group>"; };
+		E2103BF91B69E70D009A8090 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E2103BD91B67C9EC009A8090 /* AppDelegate.swift */,
 				E2103BDB1B67C9EC009A8090 /* ViewController.swift */,
+				E2103BF91B69E70D009A8090 /* SecondViewController.swift */,
 				E2103BDD1B67C9EC009A8090 /* Main.storyboard */,
 				E2103BE01B67C9EC009A8090 /* Images.xcassets */,
 				E2103BE21B67C9EC009A8090 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2103BFA1B69E70D009A8090 /* SecondViewController.swift in Sources */,
 				E2103BDC1B67C9EC009A8090 /* ViewController.swift in Sources */,
 				E2103BDA1B67C9EC009A8090 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				E2103BF51B67C9EC009A8090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2103BF61B67C9EC009A8090 /* Build configuration list for PBXNativeTarget "ProjectTestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				E2103BF81B67C9EC009A8090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
